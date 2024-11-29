@@ -13,6 +13,7 @@
 ################# Code segment #####################
 
 .text
+.global main
     main:
         la  $t0, num
         lw  $t2, N
